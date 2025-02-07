@@ -1,0 +1,12 @@
+﻿.bar {
+  background-color: var(--gray-20);
+  border-radius: 14px;
+  height: 10px;
+  width: 135px;
+
+  .value {
+    background-color: transparent;
+    border-radius: 14px;
+    height: 100%;
+  }
+}

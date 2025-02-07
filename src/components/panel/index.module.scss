@@ -1,0 +1,66 @@
+﻿.panel {
+    background-color: var(--background-base);
+    padding: 32px;
+    border-radius: 30px;
+    width: 672px;
+
+    .panel-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 20px;
+
+        .title {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32px;
+        }
+
+        .dates {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            .date-item {
+                padding: 4px 12px;
+                border: 1px solid var(--gray-20);
+                border-radius: 10px;
+                transition: background-color .3s;
+                user-select: none;
+
+                height: 32px;
+
+                cursor: pointer;
+
+                p {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+
+                &.active {
+                    background-color: var(--primary-10);
+                    border-color: transparent;
+                }
+            }
+
+
+        }
+    }
+
+    .panel-body {
+        .groups {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 22px;
+
+        }
+
+        .results {
+            display: flex;
+            justify-content: space-between;
+            gap: 14px;
+            align-items: center;
+        }
+    }
+}

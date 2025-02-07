@@ -1,0 +1,17 @@
+@import 'variables.css';
+@import url('https://fonts.googleapis.com/css2?family=Geologica:slnt,wght,CRSV,SHRP@-12..0,100..900,0..1,0..100&display=swap');
+
+body {
+    background-color: var(--gray-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geologica', 'sans-serif';
+}

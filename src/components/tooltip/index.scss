@@ -1,0 +1,60 @@
+.tooltip {
+  --rt-opacity: 1;
+  box-sizing: content-box;
+
+  &.standard {
+    background-color: var(--gray-90);
+    border: 1px solid transparent;
+    color: var(--gray-5);
+
+    .arrow {
+      background: linear-gradient(to right bottom, transparent 50%, var(--gray-90) 50%);
+    }
+  }
+
+  &.success {
+    background-color: var(--success-10);
+    border: 1px solid var(--success-50);
+    color: var(--body-text);
+
+    .arrow {
+      background: linear-gradient(to right bottom, transparent 50%, var(--success) 50%);
+    }
+  }
+
+  &.primary {
+    background-color: var(--primary-10);
+    border: 1px solid var(--primary-50);
+    color: var(--body-text);
+
+    .arrow {
+      background: linear-gradient(to right bottom, transparent 50%, var(--primary) 50%);
+    }
+  }
+
+  &.error {
+    background-color: var(--error-10);
+    border: 1px solid var(--error-50);
+    color: var(--body-text);
+
+    .arrow {
+      background: linear-gradient(to right bottom, transparent 50%, var(--error) 50%);
+    }
+  }
+
+  &.small {
+    font-size: 16px;
+    padding: 4px 8px;
+  }
+
+  &.medium {
+    font-size: 20px;
+    padding: 4px 8px;
+  }
+
+  &.large {
+    font-size: 24px;
+    padding: 6px 10px;
+  }
+
+}
